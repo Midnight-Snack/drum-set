@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+.drum-kit {
+  position: relative;
+  width: 800px; /* Adjust the width according to your background image */
+  height: 500px; /* Adjust the height according to your background image */
+  margin: 20px auto; /* Center the drum kit div */
+  background: url('./images/drumset.jpg') no-repeat center center;
+  background-size: cover; /* Ensure the image covers the entire div */
+}
+
+.drum-kit button {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5); /* Make the buttons semi-visible for debugging */
+  border: 1px solid #404B69; /* Add a border for visibility */
+  cursor: pointer;
+  width: 30px; /* Adjust based on your design */
+  height: 30px; /* Adjust based on your design */
+
+}
+
+/* Adjust these positions based on your design */
+.drum-kit .l { top: 80px; left: 655px; }  /* W */
+.drum-kit .k { top: 395px; left: 390px; } /* A */
+.drum-kit .d { top: 320px; left: 550px; } /* S */
+.drum-kit .w { top: 340px; left: 220px; } /* D */
+.drum-kit .a { top: 203px; left: 310px; } /* J */
+.drum-kit .s { top: 203px; left: 470px; } /* K */
+.drum-kit .j { top: 145px; left: 95px; } /* L */
+
+.set {
+  margin: 0 auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
